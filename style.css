@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.header{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 185px;
+    border-bottom: 2px solid #DEDBDB;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.lang h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #424242;
+}
+
+.form{
+    width: 650px;
+    height: 786px;
+    border: 1px solid #DEDBDB;
+    border-radius: 50px;
+    margin: 46px auto;
+    padding: 66px 53px 37px 64px;
+}
+
+.form-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.exit{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #F0400F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.form-h1{
+    color: #0E0D5D;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    margin-top: 101px;
+}
+
+.vibor{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 59px;
+}
+
+.element{
+    width: 255px;
+    height: 54px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    color: #757575;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.element:hover{
+    color: #000000;
+    background-color: #fff;
+    transition: all 0.5;
+}
+
+input{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 51px;
+    font-size: 24px;
+    color: #757575B2;
+    border: 1px solid #75757530;
+    margin-top: 39px;
+}
+
+h5{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 18px;
+    color: #000000A3;
+
+}
+
+.form-btn{
+    background-color: #F69E86;
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    margin-top: 31px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    border: none;
+    margin-left: 333px;
+}
